@@ -1,0 +1,68 @@
+{
+    "Metadata-Version": "2.0",
+    "Name": "BeagleVote",
+    "Version": "1.0a2",
+    "Platforms": [
+        "ObscureUnix",
+        "RareDOS"
+    ],
+    "Supported-Platforms": [
+        "RedHat 7.2",
+        "i386-win32-2791"
+    ],
+    "Summary": "A module for collecting votes from beagles.",
+    "Description": "This project provides powerful math functions\nFor example, you can use `sum()` to sum numbers:\n\nExample::\n\n    >>> sum(1, 2)\n    3",
+    "Keywords": [
+        "dog",
+        "puppy",
+        "voting",
+        "election"
+    ],
+    "Author": "C. Schultz",
+    "Author-Email": "\"C. Schultz\" <cschultz@example.com>",
+    "Maintainer": "C. Schultz",
+    "Maintainer-Email": "\"C. Schultz\" <cschultz@example.com>",
+    "License": "GPL version 3, excluding DRM provisions",
+    "Classifiers": [
+        "Development Status :: 4 - Beta",
+        "Environment :: Console (Text Based)"
+    ],
+    "Provides-Extras": [
+        "pdf",
+        "test",
+        "doc"
+    ],
+    "Setup-Requires-Dists": [
+        "custom_setup_command"
+    ],
+    "Requires-Dists": [
+        "pkginfo",
+        "PasteDeploy",
+        "zope.interface (>3.5.0)"
+    ],
+    "Provides-Dists": [
+        "OtherProject",
+        "AnotherProject (3.4)",
+        "virtual_package"
+    ],
+    "Obsoletes-Dists": [
+        "Gorgon",
+        "OtherProject (<3.0)"
+    ],
+    "Requires-Python": ">=2.6",
+    "Requires-Externals": [
+        "C",
+        "libpng (>=1.5)"
+    ],
+    "URIs": {
+        "Home page": "http://www.example.com/~cschultz/bvote/",
+        "Download": "http://www.example.com/~cschultz/bvote/BeagleVote-1.0a2.tar.gz",
+        "Bug Tracker": "http://bitbucket.org/tarek/distribute/issues/"
+    },
+    "Extensions": {
+        "Chili": {
+            "Type": "Poblano",
+            "Heat": "Mild"
+        }
+    }
+}
