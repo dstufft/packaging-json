@@ -1,6 +1,14 @@
 #!/usr/bin/env python
 """
-validate.py - Validates a distribution.json to verify it matches the requirement.
+Validates a distribution.json to verify it matches the requirement. It requires
+that Distutils2 be installed.
+
+
+Usage:
+    ./validate.py [/path/to/distribution.json ...]
+
+Example:
+    ./validate.py examples/distribution.json
 """
 import json
 import os
