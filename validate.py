@@ -4,10 +4,10 @@ that Distutils2 be installed.
 
 
 Usage:
-    ./validate.py [/path/to/distribution.json ...]
+    python validate.py [/path/to/distribution.json ...]
 
 Example:
-    ./validate.py examples/distribution.json
+    python validate.py examples/distribution.json
 """
 import json
 import os
