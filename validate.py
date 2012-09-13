@@ -8,6 +8,9 @@ Usage:
 
 Example:
     python validate.py examples/distribution.json
+
+Output:
+    examples/distribution.json              [OK]
 """
 import json
 import os
