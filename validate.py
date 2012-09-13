@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """
 Validates a distribution.json to verify it matches the requirement. It requires
 that Distutils2 be installed.
