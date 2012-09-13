@@ -22,7 +22,7 @@ from distutils2 import version
 
 
 VALDIATOR = Schema({
-    "Metadata-Version": And(basestring, lambda x: x == "2.0"),
+    "Metadata-Version": And(basestring, "2.0"),
     "Name": And(basestring, lambda x: "/" not in x),  # @@@ What exactly is "ok" for a name?
     "Version": Use(version.NormalizedVersion),
     "Summary": basestring,
